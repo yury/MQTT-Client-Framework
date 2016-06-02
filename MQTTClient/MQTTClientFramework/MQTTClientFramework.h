@@ -18,5 +18,6 @@ FOUNDATION_EXPORT const unsigned char MQTTClientFrameworkVersionString[];
 
 #import "MQTTSession.h"
 #import "MQTTMessage.h"
+#import "MQTTSessionManager.h"
 
 

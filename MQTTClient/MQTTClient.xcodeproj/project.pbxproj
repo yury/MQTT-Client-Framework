@@ -60,6 +60,7 @@
 		84B1AFEE196C7AF60056B959 /* MultiThreadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1AFED196C7AF60056B959 /* MultiThreadingTests.m */; };
 		84B1AFF2196D99170056B959 /* MQTTSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B1AFF0196D99170056B959 /* MQTTSessionManager.h */; };
 		84B1AFF3196D99170056B959 /* MQTTSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1AFF1196D99170056B959 /* MQTTSessionManager.m */; };
+		D2A6B5901D00400500D57ADA /* MQTTSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B1AFF0196D99170056B959 /* MQTTSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -322,6 +323,7 @@
 				8428364E1947A92B0097F75F /* MQTTClientFramework.h in Headers */,
 				8428366D1947AA240097F75F /* MQTTMessage.h in Headers */,
 				8428366E1947AA240097F75F /* MQTTSession.h in Headers */,
+				D2A6B5901D00400500D57ADA /* MQTTSessionManager.h in Headers */,
 				8428366F1947AA340097F75F /* MQTTTxFlow.h in Headers */,
 				8428366B1947AA240097F75F /* MQTTDecoder.h in Headers */,
 				8428366C1947AA240097F75F /* MQTTEncoder.h in Headers */,
@@ -426,6 +428,7 @@
 		846191221883E56800101409 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Christoph Krey";
 				TargetAttributes = {
